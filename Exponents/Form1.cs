@@ -68,7 +68,9 @@ namespace Exponents
             UxOutputLabel.Text = "";
 
             // turn the output to invisible
+            UxOutputLabel.Visible = false;
             // turn the Go button back on
+            UxGoButton.Enabled = true;
         }
 
     }
